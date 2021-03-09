@@ -3,7 +3,7 @@ loaderVersion="[35,)"
 license="Team Novus, All rights reserved"
 
 [[mods]]
-    modId = "lovely_llamas"
+    modId = "lovelyllamas"
     version = "1.0.0"
     
     logoFile = "logo.png"
@@ -12,14 +12,14 @@ license="Team Novus, All rights reserved"
     displayName = "Lovely Llamas"
     description = '''This mod aims to improve Llamas in  Minecraft.'''
 
-[[dependencies.lovely_llamas]]
+[[dependencies.lovelyllamas]]
     modId = "minecraft"
     mandatory = true
     versionRange = "[1.16.4,1.16.5)"
     ordering = "NONE"
     side = "BOTH"
 
-[[dependencies.lovely_llamas]]
+[[dependencies.lovelyllamas]]
     modId = "forge"
     mandatory = true
     versionRange = "[35.1.4,)"
