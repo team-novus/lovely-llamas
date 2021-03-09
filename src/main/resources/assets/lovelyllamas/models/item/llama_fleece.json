@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lovely_llamas:items/llama_fleece.png"
+    "layer0": "lovely_llamas:item/llama_fleece"
   }
 }
