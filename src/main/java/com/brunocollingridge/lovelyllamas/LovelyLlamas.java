@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 public class LovelyLlamas
 {
     public static final Logger LOGGER = LogManager.getLogger();
-    public static final String Mod_ID = "lovely_llamas";
+    public static final String Mod_ID = "lovelyllamas";
 
     public LovelyLlamas() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
