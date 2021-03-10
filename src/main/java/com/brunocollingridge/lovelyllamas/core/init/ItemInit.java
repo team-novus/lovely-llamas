@@ -20,4 +20,10 @@ public class ItemInit {
 
     public static final RegistryObject<Item> FLEECE_PONCHO = ITEMS.register("fleece_poncho",
             () -> new Item(new Item.Properties().group(ItemGroup.COMBAT)));
+
+    public static final RegistryObject<Item> FLEECE_SLACKS = ITEMS.register( "fleece_slacks",
+            () -> new Item(new Item.Properties().group(ItemGroup.COMBAT)));
+
+    public static final RegistryObject<Item> FLEECE_SLIPPERS = ITEMS.register("fleece_slippers",
+            () -> new Item(new Item.Properties().group(ItemGroup.COMBAT)));
 }
