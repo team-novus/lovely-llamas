@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lovelyllamas:items/fleece_chullo"
+  }
+}
