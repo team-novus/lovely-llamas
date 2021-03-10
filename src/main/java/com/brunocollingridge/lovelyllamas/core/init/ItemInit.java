@@ -17,4 +17,7 @@ public class ItemInit {
 
     public static final RegistryObject<Item> FLEECE_CHULLO = ITEMS.register("fleece_chullo",
             () -> new Item(new Item.Properties().group(ItemGroup.COMBAT)));
+
+    public static final RegistryObject<Item> FLEECE_PONCHO = ITEMS.register("fleece_poncho",
+            () -> new Item(new Item.Properties().group(ItemGroup.COMBAT)));
 }
