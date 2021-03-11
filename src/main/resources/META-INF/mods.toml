@@ -15,7 +15,7 @@ license="Team Novus, All rights reserved"
 [[dependencies.lovelyllamas]]
     modId = "minecraft"
     mandatory = true
-    versionRange = "[1.16.4,1.16.5)"
+    versionRange = "[1.16.3,1.16.5)"
     ordering = "NONE"
     side = "BOTH"
 
