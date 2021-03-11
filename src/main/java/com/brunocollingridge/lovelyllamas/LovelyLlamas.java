@@ -1,5 +1,6 @@
 package com.brunocollingridge.lovelyllamas;
 
+import com.brunocollingridge.lovelyllamas.core.init.BlockInit;
 import com.brunocollingridge.lovelyllamas.core.init.ItemInit;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,6 +21,7 @@ public class LovelyLlamas
         bus.addListener(this::setup);
 
         ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
